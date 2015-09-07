@@ -7,7 +7,9 @@ The Red Bear Duo contains a ST32F205 MCU and AP6212A WiFi+Bluetooth combo module
 
 To use the board with WICED SDK 3.3.1:
 
-1. Download Broadcom WICED-SDK-3.3.1 from : http://community.broadcom.com/docs/DOC-2312
+1. Download Broadcom WICED-SDK-3.3.1 from:
+
+   - http://community.broadcom.com/docs/DOC-2312
 
 2. Unzip WICED-SDK-3.3.1 to your local file-system
 
@@ -17,7 +19,7 @@ To use the board with WICED SDK 3.3.1:
 
 The programmer is based on STLink:
 
-1. For Windows, go to ST official website to download and install the STLink driver
+1. For Windows, go to ST official website to download and install the STLink driver:
 
    - http://www.st.com/web/en/catalog/tools/PF260219
 
