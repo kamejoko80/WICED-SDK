@@ -21,9 +21,10 @@
 
 2. Unzip WICED-SDK-3.3.1 to your local file-system
 
-3. Merge the WICED-SDK-3.3.1 in the patch with the WICED-SDK-3.3.1 you just unzip and replace the collision files
+3. Merge the WICED-SDK-3.3.1 in the patch with the WICED-SDK-3.3.1 you just unzip and replace the original files
 
-4. Go to ST official website to download and install the st-link driver
+4. Go to ST official website to download and install the st-link driver (For Windows Only, OSX doesn't need)
+- http://www.st.com/web/en/catalog/tools/PF260219
 
 5. Open the command line terminal and change the working directory to WICED-SDK-3.3.1>
 
