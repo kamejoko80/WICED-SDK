@@ -13,7 +13,7 @@ To use the board with WICED SDK 3.3.1:
 
 2. Unzip WICED-SDK-3.3.1 to your local file-system
 
-3. Merge the WICED-SDK-3.3.1 in the patch with the WICED-SDK-3.3.1 you just unzip and replace the original files
+3. Download and copy the files in this add-on package to the WICED-SDK-3.3.1 you just unzip and replace the original files
 
 ##  RBLink (Programmer) 
 
