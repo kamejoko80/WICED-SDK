@@ -8,7 +8,7 @@
 # written permission of Broadcom Corporation.
 #
 
-NAME := Platform_RBL205IOT
+NAME := Platform_RB_Duo
 
 WLAN_CHIP            := 43438
 WLAN_CHIP_REVISION   := A1
@@ -20,7 +20,7 @@ BT_CHIP_REVISION     := A1
 BT_MODE              ?= HCI
 
 
-WIFI_FIRMWARE_IN_SPI_FLASH = YES
+WIFI_FIRMWARE_IN_SPI_FLASH = NO
 #if YES, USES_RESOURCE_FILESYSTEM also must be define in platform_config.h
 
 ifneq ($(WIFI_FIRMWARE_IN_SPI_FLASH),YES)
