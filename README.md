@@ -29,3 +29,4 @@ The programmer is based on STLink:
 
 4. Type in "make rbl.rgb-RB_Duo JTAG=RBLINK download run" and press the Enter on the keyboard to begin build the project that under the folder "WICED-SDK-3.3.1\apps\rbl\rgb". More details about make usage please refer to the Makefile which under "WICED-SDK-3.3.1\"
 
+* RBLink supports drag and drop programming, we will provide instructions for that soon.
