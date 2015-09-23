@@ -1,1 +1,1 @@
-Add examples for the platform RBL205IOT provided by RedBearLab
+Add examples for the platform RB_Duo provided by RedBearLab
