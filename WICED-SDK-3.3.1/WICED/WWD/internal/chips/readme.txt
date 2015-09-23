@@ -1,0 +1,1 @@
+Add support for 43438A0 WiFi chip version

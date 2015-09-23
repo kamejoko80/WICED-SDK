@@ -8,15 +8,15 @@
 # written permission of Broadcom Corporation.
 #
 
-NAME := Platform_RB_Duo
+NAME := Platform_RB_Duo_ES0
 
 WLAN_CHIP            := 43438
-WLAN_CHIP_REVISION   := A1
+WLAN_CHIP_REVISION   := A0
 HOST_MCU_FAMILY      := STM32F2xx
 HOST_MCU_VARIANT     := STM32F2x5
 HOST_MCU_PART_NUMBER := STM32F205RGT6
 BT_CHIP              := 43438
-BT_CHIP_REVISION     := A1
+BT_CHIP_REVISION     := A0
 BT_MODE              ?= HCI
 
 
