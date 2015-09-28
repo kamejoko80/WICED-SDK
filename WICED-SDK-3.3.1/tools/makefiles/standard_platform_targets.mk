@@ -109,14 +109,14 @@ copy_output_for_eclipse: build_done copy_bootloader_output_for_eclipse
 
 combine_bins: build_done
 	$(ECHO) Merge all bin files into a single bin for MSD upload
-	$(ECHO) Location: $(FINAL_OUTPUT_FILE)_MSD.bin
 	$(OBJCOPY) -I binary -O binary --pad-to 0x4000 $(BOOTLOADER_OUTFILE).bin $(BOOTLOADER_OUTFILE)_PAD.bin
 	$(OBJCOPY) -I binary -O binary --pad-to 0x8000 $(FINAL_DCT_FILE) $(FINAL_DCT_FILE)_PAD.bin
 ifeq ($(HOST_OS),Win32)
-	$(CP) /b $(BOOTLOADER_OUTFILE)_PAD.bin + $(FINAL_DCT_FILE)_PAD.bin + $(FINAL_OUTPUT_FILE) $(FINAL_OUTPUT_FILE)_MSD.bin
+	copy /b $(subst /,\,$(BOOTLOADER_OUTFILE))_PAD.bin + $(subst /,\,$(FINAL_DCT_FILE))_PAD.bin + $(subst /,\,$(FINAL_OUTPUT_FILE)) $(subst /,\,$(FINAL_OUTPUT_FILE))_MSD.bin
 else
 	$(CAT) $(BOOTLOADER_OUTFILE)_PAD.bin $(FINAL_DCT_FILE)_PAD.bin $(FINAL_OUTPUT_FILE) > $(FINAL_OUTPUT_FILE)_MSD.bin
 endif
+	$(ECHO) Location: $(FINAL_OUTPUT_FILE)_MSD.bin
 
 debug: $(BUILD_STRING) $(SHOULD_I_WAIT_FOR_DOWNLOAD)
 	$(QUIET)$(GDB_COMMAND) $(LINK_OUTPUT_FILE) -x .gdbinit_attach
