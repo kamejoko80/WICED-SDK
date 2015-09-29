@@ -29,10 +29,21 @@ The programmer is based on STLink:
 
 2. No driver is required for OSX and Linux
 
-3. Open the command line terminal and change the working directory to WICED-SDK-3.3.1>
+3. Connect your RBLink USB to your PC using a micro USB cable
 
-4. Type in "make rbl.rgb-RB_Duo JTAG=RBLINK download run" and press the Enter on the keyboard to begin build the project that under the folder "WICED-SDK-3.3.1\apps\rbl\rgb". More details about make usage please refer to the Makefile which under "WICED-SDK-3.3.1\"
+4. Open the command line terminal and change the working directory to WICED-SDK-3.3.1>
+
+5. Type in "make rbl.rgb-RB_Duo JTAG=RBLINK download run" and press the Enter on the keyboard to begin build the project that under the folder "WICED-SDK-3.3.1\apps\rbl\rgb". More details about make usage please refer to the Makefile which under "WICED-SDK-3.3.1\"
 
 * Remember to short the JTMS D7 and JTCK D6 jumpers (as the photo shows) before burning firmware to the board.
 
-* RBLink supports drag and drop programming, we will provide instructions for that soon.
+6. Drag-N-Drop programming
+
+RBLink supports drag and drop programming, so you can easily deploy your firmware.
+
+Using this command to compile "make rbl.rgb-RB_Duo" in teminal, after that, it will create a file with ending "_MSD.bin", simply drag and drop it to the MSD drive via the RBLink.
+
+## Other Tools
+
+The RBLink is compatible with the STLink Utility
+http://www.st.com/web/en/catalog/tools/PF258168
