@@ -41,7 +41,7 @@ The programmer is based on STLink:
 
 * Remember to short the JTMS D7 and JTCK D6 jumpers (as the photo shows) before burning firmware to the board.
 
-6. Drag-N-Drop programming
+## Drag-N-Drop programming
 
 RBLink supports drag and drop programming, so you can easily deploy your firmware.
 
