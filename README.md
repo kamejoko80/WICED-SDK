@@ -41,6 +41,16 @@ The programmer is based on STLink:
 
 * Remember to short the JTMS D7 and JTCK D6 jumpers (as the photo shows) before burning firmware to the board.
 
+## Compilation
+
+To test WiFi, you can use this command, it is a AP scanner demo:
+"make snip.scan-RB_Duo JTAG=RBLINK download run"
+
+To test Blutooth LE, you can use this command, it is a proximity reporter demo:
+"make snip.bluetooth.ble_proximity_reporter-RB_Duo_ES0 JTAG=RBLINK download run"
+
+* if your board with AP6212 module, please use -RB_Duo in the command and for AP6212A, please use -RB_Duo_ES0
+
 ## Drag-N-Drop Programming
 
 RBLink supports drag and drop programming, so you can easily deploy your firmware.
