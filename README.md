@@ -3,6 +3,8 @@
 
 The kit has two boards, the Duo board and the RBLink board. 
 
+*** There is an issue with OSX 10.11, the RBLink will not work (with OpenOCD/libusb). As a workaround, please use MSD (drag & drop) method, OSX 10.10 or Windows at this moment.
+
 ## Red Bear Duo
 
 The Red Bear Duo contains a ST32F205 MCU and AP6212A WiFi+Bluetooth combo module. The MCU has 1MB Flash and 128KB RAM, running at 120MHz. The wireless combo module built with BCM43438 A1 chip that works at 2.4GHz in frequency.
