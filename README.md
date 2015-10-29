@@ -47,13 +47,13 @@ The programmer is based on STLink:
 
 To test WiFi, you can use this command, it is a AP scanner demo:
 
-"make snip.scan-RB_Duo JTAG=RBLINK download run"
+"make snip.scan-RB_DUO_ES2 JTAG=RBLINK download run"
 
 To test Blutooth LE, you can use this command, it is a proximity reporter demo:
 
 "make snip.bluetooth.ble_proximity_reporter-RB_Duo_ES0 JTAG=RBLINK download run"
 
-* if your board with AP6212 module, please use -RB_Duo_ES0 in the command and for AP6212A, please use -RB_Duo
+* if your board with AP6212 module, please use -RB_Duo_ES0 in the command and for AP6212A, please use -RB_DUO_ES2
 
 ## Drag-N-Drop Programming
 
