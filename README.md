@@ -61,6 +61,10 @@ RBLink supports drag and drop programming, so you can easily deploy your firmwar
 
 Using this command to compile "make rbl.rgb-RB_Duo" in teminal, after that, it will create a file with ending "_MSD.bin", simply drag and drop it to the MSD drive via the RBLink.
 
+## Unload the Duo
+
+Some other firmwares may lock some sessions of the Flash area, use the unlock firmware to unlock it first before uploading any WICED firmware.
+
 ## Other Tools
 
 The RBLink is compatible with the STLink Utility
